@@ -21,7 +21,7 @@ int comp(const void *a, const void *b) {
     int input = 0;
     int idx = 0;
     float median1 = 0;
-    float median2 = 0
+    float median2 = 0;
     while(input != -1){
         scanf("%d", &input);
         if(input == -1){
