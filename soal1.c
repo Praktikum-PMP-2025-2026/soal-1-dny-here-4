@@ -47,7 +47,7 @@ int comp(const void *a, const void *b) {
     if(median1 != 0){
         printf("MEDIAN %d", (int)median1);
     } else{
-        printf("MEDIAN %.2f", median);
+        printf("MEDIAN %.2f", median2);
     }
     
 
