@@ -38,12 +38,12 @@ int comp(const void *a, const void *b) {
         median = (((float)Array[(idx / 2) - 1] + (float)Array[(idx / 2)]) / 2);
     }
 
-    printf("COUNT %d\n", idx);
+    printf("COUNT %d ", idx);
     printf("SORTED ");
     for (int i = 0; i < idx; i++){
         printf("%d ", Array[i]);
     }
-    printf("\nMEDIAN %.2f", median);
+    printf("MEDIAN %.2f", median);
 
  }
 
